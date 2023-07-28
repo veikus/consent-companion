@@ -14,7 +14,7 @@ class AbstractRules {
     return false;
   }
 
-  log() {
+  log(...args) {
     console.log(`GDPR-FU (${this.name}):`, ...args);
   }
 

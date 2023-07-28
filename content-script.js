@@ -1,7 +1,9 @@
+import Amazon from './rules/websites/amazon';
 import OctopusenergyEs from './rules/websites/octopusenergy.es';
 import CookieBot from './rules/solutions/cookiebot';
 
 const rules = [
+  new Amazon(),
   new OctopusenergyEs(),
   new CookieBot(),
 ];
